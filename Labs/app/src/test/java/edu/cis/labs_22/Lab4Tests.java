@@ -38,7 +38,7 @@ public class Lab4Tests {
     {
         String resultLong = test.descending(11);
         String answerLong = "11...10...9...8...7...6...5...4...3...2...1";
-        assertEquals(answerLong, answerLong);
+        assertEquals(answerLong, resultLong);
     }
 
     @Test
@@ -91,9 +91,8 @@ public class Lab4Tests {
         assertTrue(test.search(listOne, 8));
 
         ArrayList<Integer> listTwo= new ArrayList<>();
-        listOne.add(5); listOne.add(4); listOne.add(3); listOne.add(1);
+        listTwo.add(5); listTwo.add(4); listTwo.add(3); listTwo.add(1);
         assertFalse(test.search(listTwo, 6));
-
     }
 
     @Test
