@@ -11,6 +11,7 @@ public class Lab5Tests {
     public void isEmptyTest()
     {
         CISLinkedList<String> cll = new CISLinkedList<>();
+        System.out.println(cll.toString());
         assertTrue(cll.isEmpty());
     }
 
