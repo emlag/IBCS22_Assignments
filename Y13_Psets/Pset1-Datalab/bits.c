@@ -149,7 +149,7 @@ int isZero(int x) {
  *   Rating: 1
  */
 int bitOr(int x, int y) {
-  return 2;
+  return 2; 
 }
 
 /* 
